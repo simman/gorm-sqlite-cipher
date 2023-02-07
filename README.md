@@ -1,7 +1,7 @@
 # gorm-sqlite-cipher
 
-[![GoDoc Reference](https://godoc.org/github.com/CovenantSQL/go-sqlite3-encrypt?status.svg)](https://pkg.go.dev/github.com/jackfr0st13/gorm-sqlite-cipher)
-[![Go Report Card](https://goreportcard.com/badge/github.com/CovenantSQL/go-sqlite3-encrypt)](https://goreportcard.com/report/github.com/jackfr0st13/gorm-sqlite-cipher)
+[![GoDoc Reference](https://godoc.org/github.com/CovenantSQL/go-sqlite3-encrypt?status.svg)](https://pkg.go.dev/github.com/simman/gorm-sqlite-cipher)
+[![Go Report Card](https://goreportcard.com/badge/github.com/CovenantSQL/go-sqlite3-encrypt)](https://goreportcard.com/report/github.com/simman/gorm-sqlite-cipher)
 
 ### Description
 
@@ -19,13 +19,13 @@ SQLite itself is part of SQLCipher.
 
 This package can be installed with the go get command:
 
-    go get github.com/jackfr0st13/gorm-sqlite-cipher
+    go get github.com/simman/gorm-sqlite-cipher
 
 ## USAGE
 
 ```go
 import (
-  sqliteEncrypt "github.com/jackfr0st13/gorm-sqlite-cipher"
+  sqliteEncrypt "github.com/simman/gorm-sqlite-cipher"
   "gorm.io/gorm"
 )
 key := "passphrase"
